@@ -1,0 +1,22 @@
+---
+layout: default
+---
+<article>
+{%- for post in site.posts -%}
+  {%- assign date_format = site.minima.date_format | default: "%b %-d, %Y" -%}
+  <div>
+    <h2>
+      <a href="{{ post.url | relative_url }}">{{ post.title | escape }}</a>
+    </h2>
+
+    <p>
+      {%- assign date_format = site.minima.date_format | default: "%b %-d, %Y" -%}
+      {{ post.date | date: date_format }}
+    </p>
+
+    {%- if site.show_excerpts -%}
+      {{ post.excerpt }}
+    {%- endif -%}
+  </div>
+{%- endfor -%}
+</article>
