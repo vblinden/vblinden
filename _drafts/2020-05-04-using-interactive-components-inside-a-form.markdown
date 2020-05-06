@@ -7,13 +7,14 @@ categories: vue javascript
 
 <div id="vue">
     <p>
-        Message: {{ message }}
+        Message: (( message ))
     </p>
 </div>
 
 <script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
 <script>
     new Vue({
+        delimiters: ['((', '))'],
         el: '#vue',
         data: {
             message: 'Hello Jekyll!'

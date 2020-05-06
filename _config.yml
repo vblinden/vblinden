@@ -7,6 +7,7 @@ url: "" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: vblinden
 github_username:  vblinden
 show_excerpts: true
+permalink: '/:year/:month/:day/:title.html'
 
 # Build settings
 # theme: minima
