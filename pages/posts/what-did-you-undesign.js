@@ -1,8 +1,12 @@
+import Head from 'next/head';
 import Post from '../../components/Post';
 
 const WhatDidYouUndesign = () => {
   return (
     <Post>
+      <Head>
+        <title>vblinden - What did you undesign?</title>
+      </Head>
       <div className="row">
         <div className="col-md-12">
           <div className="mb-4 mt-3">
@@ -10,16 +14,18 @@ const WhatDidYouUndesign = () => {
             <p>Date: 2020, September 28th</p>
           </div>
 
-          <iframe
-            className="w-100 mb-4"
-            width="560"
-            height="315"
-            src="https://www.youtube-nocookie.com/embed/sOpMrVnjYeY?start=4800"
-            title="YouTube video player"
-            frameBorder={0}
-            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-            allowFullScreen={true}
-          ></iframe>
+          <div className="d-flex align-items-center">
+            <iframe
+              className="mx-auto mb-4"
+              width="560"
+              height="315"
+              src="https://www.youtube-nocookie.com/embed/sOpMrVnjYeY?start=4800"
+              title="YouTube video player"
+              frameBorder={0}
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+              allowFullScreen={true}
+            ></iframe>
+          </div>
 
           <p>
             In the video above Eric Berger from Ars Technica asks the question on how Elon Musk and the team at SpaceX

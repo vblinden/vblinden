@@ -1,8 +1,12 @@
 import Link from 'next/link';
+import Head from 'next/head';
 
 export default function Home() {
   return (
     <div className="container">
+      <Head>
+        <title>vblinden</title>
+      </Head>
       <div className="row mt-5 mb-5">
         <div className="col-md-12">
           <h1 className="fs-3 fw-bold">vblinden.</h1>
@@ -35,6 +39,9 @@ export default function Home() {
             </li>
             <li>
               <Link href="/posts/retrieve-submodules-with-git">Retrieve submodules with Git</Link>
+            </li>
+            <li>
+              <Link href="/posts/never-forget-backups">Never. Forget. Backups.</Link>
             </li>
           </ul>
           {/* <p>

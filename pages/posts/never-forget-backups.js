@@ -1,8 +1,12 @@
+import Head from 'next/head';
 import Post from '../../components/Post';
 
 const NeverForgetBackups = () => {
   return (
     <Post>
+      <Head>
+        <title>vblinden - Never. Forget. Backups.</title>
+      </Head>
       <div className="row">
         <div className="col-md-12">
           <div className="mb-4 mt-3">

@@ -1,3 +1,4 @@
+import Head from 'next/head';
 import Post from '../../components/Post';
 import Highlight from 'react-highlight';
 import '../../node_modules/highlight.js/styles/atom-one-dark.css';
@@ -5,6 +6,9 @@ import '../../node_modules/highlight.js/styles/atom-one-dark.css';
 const RetrieveSubmodulesWithGit = () => {
   return (
     <Post>
+      <Head>
+        <title>vblinden - How to install AMQP on macOS</title>
+      </Head>
       <div className="row">
         <div className="col-md-12">
           <div className="mb-4 mt-3">
