@@ -19,7 +19,7 @@ export default function Home() {
             Disclaimer: The opinions expressed herein are my own personal opinions and do not represent my
             employer&apos;s view in any way.
           </p>
-          <h2 className="fs-4 fw-bold mt-5">Writings.</h2>
+          <h2 className="fs-4 fw-bold mt-3">Writings.</h2>
           <ul>
             <li>
               <Link href="/posts/how-to-install-amqp-on-macos">
@@ -44,12 +44,10 @@ export default function Home() {
               <Link href="/posts/never-forget-backups">Never. Forget. Backups.</Link>
             </li>
           </ul>
-          {/* <p>
-            <a href="">View all writings</a>.
-          </p> */}
-          <h2 className="fs-4 fw-bold mt-5">Projects.</h2>
+
+          <h2 className="fs-4 fw-bold mt-3">Projects.</h2>
           <dl>
-            <dt>
+            <dt className="fw-normal">
               <a href="https://checkify.io" target="_blank" rel="noreferrer">
                 checkify.io
               </a>
@@ -60,7 +58,7 @@ export default function Home() {
               pinging a webhook.
             </dd>
 
-            <dt className="mt-4">
+            <dt className="mt-3 fw-normal">
               <a href="https://drinkmorewater.app" target="_blank" rel="noreferrer">
                 drinkmorewater.app
               </a>
@@ -70,7 +68,7 @@ export default function Home() {
               from, the type of beverages you drink and easily keep track of your daily water intake.
             </dd>
 
-            <dt className="mt-4">
+            <dt className="mt-3 fw-normal">
               <a href="https://nederboard.nl" target="_blank" rel="noreferrer">
                 nederboard.nl
               </a>
@@ -92,7 +90,7 @@ export default function Home() {
               and many more!
             </dd>
 
-            <dt className="mt-4">
+            <dt className="mt-3 fw-normal">
               <a href="https://iloveitshipit.com" target="_blank" rel="noreferrer">
                 iloveitshipit.com
               </a>
@@ -106,7 +104,7 @@ export default function Home() {
             </dd>
           </dl>
 
-          <h2 className="fs-4 fw-bold mt-5">Contact.</h2>
+          <h2 className="fs-4 fw-bold mt-3">Contact.</h2>
           <p>You can always reach me at blog [at] vblinden.dev.</p>
         </div>
       </div>

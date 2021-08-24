@@ -10,7 +10,7 @@ const NeverForgetBackups = () => {
       <div className="row">
         <div className="col-md-12">
           <div className="mb-4 mt-3">
-            <h1>Never. Forget. Backups.</h1>
+            <h1 className="fs-3">Never. Forget. Backups.</h1>
             <p>Date: 2019, August 26th</p>
           </div>
 

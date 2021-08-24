@@ -12,7 +12,7 @@ const RetrieveSubmodulesWithGit = () => {
       <div className="row">
         <div className="col-md-12">
           <div className="mb-4 mt-3">
-            <h1>How to install AMQP on macOS</h1>
+            <h1 className="fs-3">How to install AMQP on macOS</h1>
             <p>Date: 2020, October 2th</p>
           </div>
 
