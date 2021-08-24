@@ -11,9 +11,9 @@ export default function Home() {
         <div className="col-md-12">
           <h1 className="fs-3 fw-bold">vblinden.</h1>
           <p>
-            Hello everyone, my online nickname is vblinden and I am currently working as a &quot;full stack
-            developer&quot; at team.blue. On my site you can find some thoughts and other babbling that I thought were
-            important enough to put online. Please enjoy.
+            Hello everyone, my name is Vincent van der Linden and you can find me online by @vblinden. I am currently
+            working as a full stack developer at team.blue. On my site you can find some thoughts and other babblings
+            that I thought were important or useful enough to put online. Please enjoy.
           </p>
           <p>
             Disclaimer: The opinions expressed herein are my own personal opinions and do not represent my
