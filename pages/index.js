@@ -11,9 +11,16 @@ export default function Home() {
         <div className="col-md-12">
           <h1 className="fs-3 fw-bold">vblinden.</h1>
           <p>
-            Hello everyone, my name is Vincent van der Linden and you can find me online by @vblinden. I am currently
-            working as a full stack developer at team.blue. On my site you can find some thoughts and other babblings
-            that I thought were important or useful enough to put online. Please enjoy.
+            Hello everyone, my name is Vincent van der Linden and you can find me online by vblinden (
+            <a href="https://github.com/vblinden" target="_blank" rel="noreferrer">
+              code
+            </a>
+            ,{' '}
+            <a href="https://twitter.com/vblinden" target="_blank" rel="noreferrer">
+              twitter
+            </a>
+            ). I am currently working as a full stack developer at team.blue. On my site you can find some thoughts and
+            other babblings that I thought were important or useful enough to put online. Please enjoy.
           </p>
           <p>
             Disclaimer: The opinions expressed herein are my own personal opinions and do not represent my
@@ -101,6 +108,16 @@ export default function Home() {
                 Scott Hanselman
               </a>{' '}
               during a .NET conference back in the day.
+            </dd>
+
+            <dt className="mt-3 fw-normal">
+              <a href="https://piglatin.vblinden.dev" target="_blank" rel="noreferrer">
+                piglatin.vblinden.dev
+              </a>
+            </dt>
+            <dd>
+              A converter from plain English to Pig Latin, or &quot;Igpay Atinlay&quot; which is a language game or
+              argot in which English words are altered to conceal the words from others not familiar with the rules.
             </dd>
           </dl>
 
