@@ -46,19 +46,19 @@ const WhatDidYouUndesign = () => {
 
           <p className="fw-bold">Step 3: Simplify or optimize </p>
           <p>
-            It is very common, possibly the most common, error of a smart engineer is to optimize a thing that should
-            not exist. Everyone is trained in high school and college to always answer the question. You can&apos;t tell
-            your professor his question is dumb, because you will get a bad grade. You always have to answer the
-            question. So everyone has a mental straight jacket on without knowing it and they&apos;ll work on optimizing
-            the thing that simply shouldn&apos;t exist in the first place.
+            It is possibly the most common error of a smart engineer to optimize a thing that should not exist. Everyone
+            is trained in high school and college to always answer the question. You can&apos;t tell your professor his
+            question is dumb, because you will get a bad grade. You always have to answer the question. So everyone has
+            a mental straight jacket on without knowing it and they&apos;ll work on optimizing the thing that simply
+            shouldn&apos;t exist in the first place.
           </p>
 
           <p className="fw-bold">Step 4: Accelerate cycle time</p>
           <p>
             You&apos;re moving too slowly, go faster. But don&apos;t go faster before you have worked on the other three
             things (requirements, deleting and simplifying) first. For example, if you&apos;re digging your grave,
-            don&apos;t dig it faster, stop digging your grave. Then look for things that can go faster. And you can
-            always make things go faster.
+            don&apos;t dig it faster, stop digging your grave. Then look for things that can go faster. You can always
+            make things go faster.
           </p>
 
           <p className="fw-bold">Step 5: Automate</p>
@@ -69,7 +69,7 @@ const WhatDidYouUndesign = () => {
           </p>
 
           <p>
-            I recommend you to watch the whole video (and series). It gives very useful insights in how Elon Musk is
+            I recommend you watch the whole video (and series). It gives very useful insights in how Elon Musk is
             leading SpaceX (and Tesla) in iterating as much as possible and getting so much stuff done.
           </p>
 
