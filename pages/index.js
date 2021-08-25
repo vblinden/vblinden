@@ -29,6 +29,11 @@ export default function Home() {
           <h2 className="fs-4 fw-bold mt-3">Writings.</h2>
           <ul>
             <li>
+              <Link href="/posts/implement-rigorously-the-five-step-process">
+                <a>Implement Rigorously: The Five Step Process</a>
+              </Link>
+            </li>
+            <li>
               <Link href="/posts/how-to-install-amqp-on-macos">
                 <a>How to install AMQP on macOS</a>
               </Link>

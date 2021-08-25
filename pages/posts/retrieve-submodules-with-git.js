@@ -17,10 +17,10 @@ const RetrieveSubmodulesWithGit = () => {
           </div>
 
           <p>
-            Yesterday I had a really difficult time with pulling in a submodule from an old git repository I had laying
+            Yesterday I had a really hard time with pulling in a submodule from an old git repository I had laying
             around. I thought a quick <strike>Google</strike> DuckDuckGo search would solve all my problems, but alas.
             There was a lot of outdated information that simply didn’t work with the Git version I had installed on my
-            computer (or I applied incorrectly).
+            computer (or maybe I just applied it incorrectly).
           </p>
 
           <p>
@@ -28,8 +28,8 @@ const RetrieveSubmodulesWithGit = () => {
             <a href="https://stackoverflow.com/a/44692935" target="_blank" rel="noreferrer">
               answer
             </a>{' '}
-            on StackOverflow that quite work, but send me in the right direction. Eventually I gave up and did what I
-            should have done in the first place: Look at the{' '}
+            on StackOverflow that didn&apos;t quite work, but send me in the right direction. Eventually I gave up the
+            DuckDuckGoing and did what I should have done in the first place: Look at the{' '}
             <a href="https://git-scm.com/docs/git-submodule" target="_blank" rel="noreferrer">
               Git documentation
             </a>{' '}
