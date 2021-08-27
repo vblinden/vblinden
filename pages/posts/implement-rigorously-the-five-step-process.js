@@ -5,7 +5,7 @@ const WhatDidYouUndesign = () => {
   return (
     <Post>
       <Head>
-        <title>vblinden - What did you undesign?</title>
+        <title>vblinden - Implement Rigorously: The Five Step Process</title>
       </Head>
       <div className="row">
         <div className="col-md-12">
