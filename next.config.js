@@ -16,7 +16,7 @@ const securityHeaders = [
 if (process.env.NODE_ENV === 'production') {
   securityHeaders.push({
     key: 'Content-Security-Policy',
-    value: 'default-src \'self\'; img-src *; script-src: \'self\'; style-src: \'self\';'
+    value: 'default-src \'self\'; img-src *; script-src: \'self\'; style-src: \'self\'; frame-src youtube.com www.youtube.com;'
   });
 }
 
@@ -25,7 +25,6 @@ module.exports = {
   async headers() {
     return [
       {
-        // Apply these headers to all routes in your application.
         source: '/(.*)',
         headers: securityHeaders,
       },
