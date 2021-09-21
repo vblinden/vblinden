@@ -16,7 +16,7 @@ const securityHeaders = [
 if (process.env.NODE_ENV === 'production') {
   securityHeaders.push({
     key: 'Content-Security-Policy',
-    value: 'default-src \'self\'; img-src *; script-src: \'self\'; style-src: \'self\'; frame-src youtube.com www.youtube.com;'
+    value: 'default-src \'self\'; img-src *; script-src \'self\'; style-src \'self\'; frame-src youtube-nocookie.com www.youtube-nocookie.com;'
   });
 }
 
