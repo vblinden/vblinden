@@ -11,9 +11,11 @@ const RetrieveSubmodulesWithGit = () => {
       </Head>
       <div className="row">
         <div className="col-md-12">
-          <div className="mb-4 mt-3">
+          <div className="mb-4">
             <h1 className="fs-3">Retrieve submodules with Git</h1>
-            <p>Date: 2019, November 8th</p>
+            <p>
+              <strong>Date:</strong> 2019, November 8th
+            </p>
           </div>
 
           <p>

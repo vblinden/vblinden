@@ -9,7 +9,11 @@ export default function Home() {
       </Head>
       <div className="row mt-5 mb-5">
         <div className="col-md-12">
-          <h1 className="fs-3 fw-bold">vblinden.</h1>
+          <h1 className="fs-3 fw-bold">
+            <Link href="/">
+              <a className="text-decoration-none text-body">vblinden.</a>
+            </Link>
+          </h1>
           <p>
             Hello everyone, my name is Vincent van der Linden and you can find me online by vblinden (
             <a href="https://github.com/vblinden" target="_blank" rel="noreferrer">

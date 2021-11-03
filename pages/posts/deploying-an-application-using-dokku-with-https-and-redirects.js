@@ -11,9 +11,11 @@ const DeployingAnApplicationUsingDokku = () => {
       </Head>
       <div className="row">
         <div className="col-md-12">
-          <div className="mb-4 mt-3">
+          <div className="mb-4">
             <h1 className="fs-3">Deploying an application using Dokku (with https and redirects)</h1>
-            <p>Date: 2020, May 5th</p>
+            <p>
+              <strong>Date:</strong> 2020, May 5th
+            </p>
           </div>
 
           <p>

@@ -9,9 +9,11 @@ const WhatDidYouUndesign = () => {
       </Head>
       <div className="row">
         <div className="col-md-12">
-          <div className="mb-4 mt-3">
+          <div className="mb-4">
             <h1 className="fs-3">Implement Rigorously: The Five Step Process</h1>
-            <p>Date: 2021, August 25th</p>
+            <p>
+              <strong>Date:</strong> 2021, August 25th
+            </p>
           </div>
 
           <p>

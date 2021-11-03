@@ -9,9 +9,11 @@ const WhatDidYouUndesign = () => {
       </Head>
       <div className="row">
         <div className="col-md-12">
-          <div className="mb-4 mt-3">
+          <div className="mb-4">
             <h1 className="fs-3">What did you undesign?</h1>
-            <p>Date: 2020, September 28th</p>
+            <p>
+              <strong>Date:</strong> 2020, September 28th
+            </p>
           </div>
 
           <div className="d-flex align-items-center">

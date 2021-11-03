@@ -11,9 +11,11 @@ const RetrieveSubmodulesWithGit = () => {
       </Head>
       <div className="row">
         <div className="col-md-12">
-          <div className="mb-4 mt-3">
+          <div className="mb-4">
             <h1 className="fs-3">How to install AMQP on macOS</h1>
-            <p>Date: 2020, October 2th</p>
+            <p>
+              <strong>Date:</strong> 2020, October 2th
+            </p>
           </div>
 
           <p>I recently wanted to install the AMQP extension for PHP version 7.4, but ran into some issues on macOS.</p>

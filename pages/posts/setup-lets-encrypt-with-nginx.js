@@ -11,9 +11,11 @@ const SetupLetsEncryptWithNginx = () => {
       </Head>
       <div className="row">
         <div className="col-md-12">
-          <div className="mb-4 mt-3">
+          <div className="mb-4">
             <h1 className="fs-3">Let&apos;s Encrypt and Nginx</h1>
-            <p>Date: 2019, November 19th</p>
+            <p>
+              <strong>Date:</strong> 2019, November 19th
+            </p>
           </div>
 
           <p>
