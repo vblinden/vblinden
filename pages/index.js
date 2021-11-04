@@ -138,7 +138,7 @@ export default function Home() {
           </dl>
 
           <h2 className="fs-4 fw-bold mt-3">Contact.</h2>
-          <p>You can always reach me at blog [at] vblinden.dev.</p>
+          <p>You can always reach me at blog [at] vblinden.xyz.</p>
         </div>
       </div>
     </div>
