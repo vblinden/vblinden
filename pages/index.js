@@ -120,8 +120,15 @@ export default function Home() {
             </dd>
 
             <dt className="mt-3 fw-normal">
-              <a href="https://piglatin.vblinden.dev" target="_blank" rel="noreferrer">
-                piglatin.vblinden.dev
+              <a href="https://lofi.vblinden.xyz" target="_blank" rel="noreferrer">
+                lofi.vblinden.xyz
+              </a>
+            </dt>
+            <dd>An easy way to listen to different kind of LoFi music.</dd>
+
+            <dt className="mt-3 fw-normal">
+              <a href="https://piglatin.vblinden.xyz" target="_blank" rel="noreferrer">
+                piglatin.vblinden.xyz
               </a>
             </dt>
             <dd>
