@@ -2,8 +2,8 @@ import Link from 'next/link';
 
 const Post = ({ children }) => {
   return (
-    <div className="container post mb-4">
-      <div className="row mt-5">
+    <div className="container post mb-3">
+      <div className="row mt-3">
         <div className="col-md-12">
           <h1 className="fs-3 fw-bold">
             <Link href="/">
