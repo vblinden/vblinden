@@ -7,7 +7,7 @@ export default function Home() {
       <Head>
         <title>vblinden</title>
       </Head>
-      <div className="row mt-5 mb-5">
+      <div className="row mt-3 mb-3">
         <div className="col-md-12">
           <h1 className="fs-3 fw-bold">
             <Link href="/">
@@ -15,22 +15,18 @@ export default function Home() {
             </Link>
           </h1>
           <p>
-            Hello everyone, my name is Vincent van der Linden and you can find me online by vblinden (
+            Hello everyone, my name is Vincent van der Linden and you can find me online as vblinden (
             <a href="https://github.com/vblinden" target="_blank" rel="noreferrer">
-              code
+              github
             </a>
-            ,{' '}
-            <a href="https://twitter.com/vblinden" target="_blank" rel="noreferrer">
-              twitter
-            </a>
-            ). I am currently working as a full stack developer at team.blue. On my site you can find some thoughts and
-            other babblings that I thought were important or useful enough to put online. Please enjoy.
+            ). I am currently working as a software engineer at team.blue. On this website you can find some thoughts
+            and other babblings that I thought were important or useful enough to put online. Please enjoy.
           </p>
           <p>
             Disclaimer: The opinions expressed herein are my own personal opinions and do not represent my
             employer&apos;s view in any way.
           </p>
-          <h2 className="fs-4 fw-bold mt-3">Writings.</h2>
+          <h2 className="fs-4 fw-bold mt-3">Blog.</h2>
           <ul>
             <li>
               <Link href="/posts/implement-rigorously-the-five-step-process">
@@ -138,7 +134,7 @@ export default function Home() {
           </dl>
 
           <h2 className="fs-4 fw-bold mt-3">Contact.</h2>
-          <p>You can always reach me at blog [at] vblinden.xyz.</p>
+          <p>You can reach me at blog [at] vblinden.xyz.</p>
         </div>
       </div>
     </div>
