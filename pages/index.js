@@ -71,6 +71,16 @@ export default function Home() {
             </dd>
 
             <dt className="mt-3 fw-normal">
+              <a href="https://bin.vblinden.xyz" target="_blank" rel="noreferrer">
+                bin.vblinden.xyz
+              </a>
+            </dt>
+            <dd>
+              Privbin is a online content-hosting service where users can store plain text publicly or privately for a
+              specific duration. Client side encryption is optional.
+            </dd>
+
+            <dt className="mt-3 fw-normal">
               <a href="https://drinkmorewater.app" target="_blank" rel="noreferrer">
                 drinkmorewater.app
               </a>
