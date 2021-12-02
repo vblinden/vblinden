@@ -70,9 +70,9 @@ const WhatDidYouUndesign = () => {
         SpaceX (and Tesla) in iterating as much as possible and getting so much stuff done.
       </p>
 
-      <div className="d-flex align-items-center">
+      <div className="relative" style={{ padding: '28%' }}>
         <iframe
-          className="mx-auto mb-4"
+          className="mx-auto mb-4 absolute inset-0 w-full h-full"
           width="560"
           height="315"
           src="https://www.youtube-nocookie.com/embed/t705r8ICkRw?start=808"

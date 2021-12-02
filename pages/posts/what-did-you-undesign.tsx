@@ -40,9 +40,9 @@ const WhatDidYouUndesign = () => {
         adding more and more stuff?
       </p>
 
-      <div className="d-flex align-items-center">
+      <div className="relative" style={{ padding: '28%' }}>
         <iframe
-          className="mx-auto mb-4"
+          className="mx-auto mb-4 absolute inset-0 w-full h-full"
           width="560"
           height="315"
           src="https://www.youtube-nocookie.com/embed/sOpMrVnjYeY?start=4800"
