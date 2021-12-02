@@ -3,7 +3,7 @@ import Document, { Html, Head, Main, NextScript } from 'next/document';
 class MyDocument extends Document {
   render() {
     return (
-      <Html>
+      <Html className="bg-gray-50 font-serif">
         <Head>
           <link rel="shortcut icon" href="#" />
         </Head>
