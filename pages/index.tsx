@@ -59,12 +59,12 @@ export default function Home() {
         <dl>
           <dt className="fw-normal">
             <a
-              href="https://checkify.io"
+              href="https://checkeroni.com"
               target="_blank"
               rel="noreferrer"
               className="text-blue-600 hover:text-blue-800"
             >
-              checkify.io
+              checkeroni.com
             </a>
           </dt>
           <dd>
