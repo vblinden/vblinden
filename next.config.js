@@ -15,13 +15,22 @@ const securityHeaders = [
   },
 ];
 
-if (process.env.NODE_ENV === 'production') {
-  securityHeaders.push({
-    key: 'Content-Security-Policy',
-    value:
-      "default-src 'self'; img-src *; script-src 'self'; style-src 'self' 'unsafe-inline'; frame-src youtube-nocookie.com www.youtube-nocookie.com;",
-  });
-}
+// if (process.env.NODE_ENV === 'production') {
+securityHeaders.push({
+  key: 'Content-Security-Policy',
+  value: `
+      default-src 'self';
+      script-src 'self' 'unsafe-eval' 'unsafe-inline' *.twitter.com;
+      frame-src *.youtube-nocookie.com;
+      child-src *.youtube-nocookie.com *.twitter.com;
+      style-src 'self' 'unsafe-inline';
+      img-src * blob: data:;
+      media-src 'none';
+      connect-src *;
+      font-src 'self';
+    `.replace(/\n/g, ''),
+});
+// }
 
 module.exports = withContentlayer({
   reactStrictMode: true,
