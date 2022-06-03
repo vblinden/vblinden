@@ -1,8 +1,10 @@
 import Link from 'next/link';
 import Head from 'next/head';
 import Header from '@/components/Header';
+import { compareDesc } from 'date-fns';
+import { allPosts } from 'contentlayer/generated';
 
-export default function Home() {
+export default function Home({ posts }) {
   return (
     <>
       <Head>
@@ -14,43 +16,13 @@ export default function Home() {
       <section className="mb-8">
         <h2 className="text-xl font-bold font-sans mb-3">Blog.</h2>
         <ul className="list-inside list-disc ml-6">
-          <li>
-            <Link href="/posts/implement-rigorously-the-five-step-process">
-              <a className="text-blue-600 hover:text-blue-800">Implement Rigorously: The Five Step Process</a>
-            </Link>
-          </li>
-          <li>
-            <Link href="/posts/how-to-install-amqp-on-macos">
-              <a className="text-blue-600 hover:text-blue-800">How to install AMQP on macOS</a>
-            </Link>
-          </li>
-          <li>
-            <Link href="/posts/what-did-you-undesign">
-              <a className="text-blue-600 hover:text-blue-800">What did you undesign?</a>
-            </Link>
-          </li>
-          <li>
-            <Link href="/posts/deploying-an-application-using-dokku-with-https-and-redirects">
-              <a className="text-blue-600 hover:text-blue-800">
-                Deploying an application using Dokku (with https and redirects)
-              </a>
-            </Link>
-          </li>
-          <li>
-            <Link href="/posts/setup-lets-encrypt-with-nginx">
-              <a className="text-blue-600 hover:text-blue-800">Setup Let&apos;s Encrypt with Nginx</a>
-            </Link>
-          </li>
-          <li>
-            <Link href="/posts/retrieve-submodules-with-git">
-              <a className="text-blue-600 hover:text-blue-800">Retrieve submodules with Git</a>
-            </Link>
-          </li>
-          <li>
-            <Link href="/posts/never-forget-backups">
-              <a className="text-blue-600 hover:text-blue-800">Never. Forget. Backups.</a>
-            </Link>
-          </li>
+          {posts.map((post) => (
+            <li key={post.slug}>
+              <Link href={`/posts/${post.slug}`}>
+                <a className="text-blue-600 hover:text-blue-800">{post.title}</a>
+              </Link>
+            </li>
+          ))}
         </ul>
       </section>
 
@@ -203,4 +175,12 @@ export default function Home() {
       </section>
     </>
   );
+}
+
+export async function getStaticProps() {
+  const posts = allPosts.sort((a, b) => {
+    return compareDesc(new Date(a.date), new Date(b.date));
+  });
+
+  return { props: { posts } };
 }

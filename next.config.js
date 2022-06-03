@@ -1,33 +1,37 @@
+const { withContentlayer } = require('next-contentlayer');
+
 const securityHeaders = [
   {
     key: 'X-XSS-Protection',
-    value: '1; mode=block'
+    value: '1; mode=block',
   },
   {
     key: 'X-Frame-Options',
-    value: 'SAMEORIGIN'
+    value: 'SAMEORIGIN',
   },
   {
     key: 'X-Content-Type-Options',
-    value: 'nosniff'
+    value: 'nosniff',
   },
 ];
 
 if (process.env.NODE_ENV === 'production') {
   securityHeaders.push({
     key: 'Content-Security-Policy',
-    value: 'default-src \'self\'; img-src *; script-src \'self\'; style-src \'self\' \'unsafe-inline\'; frame-src youtube-nocookie.com www.youtube-nocookie.com;'
+    value:
+      "default-src 'self'; img-src *; script-src 'self'; style-src 'self' 'unsafe-inline'; frame-src youtube-nocookie.com www.youtube-nocookie.com;",
   });
 }
 
-module.exports = {
+module.exports = withContentlayer({
   reactStrictMode: true,
+  pageExtensions: ['ts', 'tsx', 'js', 'jsx', 'md', 'mdx'],
   async headers() {
     return [
       {
         source: '/(.*)',
         headers: securityHeaders,
       },
-    ]
+    ];
   },
-}
+});
