@@ -52,5 +52,5 @@ I recommend you watch the whole video (and series). It gives very useful insight
 and Tesla) in iterating as much as possible and getting so much stuff done.
 
 <div class="relative">
-  <iframe class="mx-auto mb-4 absolute inset-0 w-full h-full" width="560" height="315" src="https://www.youtube-nocookie.com/embed/t705r8ICkRw?start=808" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+  <iframe class="mx-auto mt-4" width="560" height="315" src="https://www.youtube-nocookie.com/embed/t705r8ICkRw?start=808" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 </div>

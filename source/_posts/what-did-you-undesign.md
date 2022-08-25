@@ -25,5 +25,7 @@ Tell me, did you undesign something in your projects recently? Or are you in a s
 and more stuff?
 
 <div class="relative mb-10">
-    <iframe class="mx-auto mb-4 absolute inset-0 w-full h-full" width="560" height="315" src="https://www.youtube-nocookie.com/embed/sOpMrVnjYeY?start=4800" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    <iframe class="mx-auto mt-4" width="560" height="315" src="https://www.youtube-nocookie.com/embed/sOpMrVnjYeY?start=4800" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 </div>
+
+
