@@ -98,9 +98,9 @@
             </dd>
 
             <dt class="mt-3 fw-normal">
-                <a href="https://lofi.vblinden.dev" target="_blank" rel="noreferrer"
+                <a href="https://lofi.vblinden.xyz" target="_blank" rel="noreferrer"
                    class="text-blue-600 hover:text-blue-800">
-                    lofi.vblinden.dev
+                    lofi.vblinden.xyz
                 </a>
             </dt>
             <dd>An easy way to listen to different kind of LoFi music.</dd>
