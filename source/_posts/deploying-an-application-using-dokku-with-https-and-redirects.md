@@ -75,7 +75,7 @@ the following commands on your server.
 sudo dokku plugin:install https://github.com/dokku/dokku-letsencrypt.git
 
 # Tell Let's Encrypt which email to use:
-dokku config:set --global DOKKU_LETSENCRYPT_EMAIL=test@example.com
+dokku config:set --global DOKKU_LETSENCRYPT_EMAIL={your-email}
 
 # Enable Let's Encrypt for our application:
 dokku letsencrypt appname
