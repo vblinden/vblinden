@@ -1,0 +1,64 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.content .anchor {
+    @apply absolute invisible no-underline;
+
+    margin-left: -1em;
+    padding-right: 0.5em;
+    width: 80%;
+    max-width: 700px;
+    cursor: pointer;
+}
+
+.anchor:hover {
+    @apply visible;
+}
+
+.content h1 {
+    @apply text-3xl font-bold mb-1 mt-6;
+}
+
+.content h2 {
+    @apply text-2xl font-bold mb-1 mt-6 font-sans;
+}
+
+.content h3 {
+    @apply text-xl font-bold mb-1 mt-6;
+}
+
+.content h4 {
+    @apply font-bold mb-1;
+}
+
+.content a {
+    @apply transition-all text-blue-600 hover:text-blue-800;
+}
+
+.content p {
+    @apply mb-3
+}
+
+.content .anchor:after {
+    @apply text-gray-700;
+    content: '#';
+}
+
+.content *:hover > .anchor {
+    @apply visible;
+}
+
+.content code {
+  @apply mt-2;
+}
+
+pre::-webkit-scrollbar {
+    display: none;
+}
+
+pre {
+    -ms-overflow-style: none; /* IE and Edge */
+    scrollbar-width: none; /* Firefox */
+    @apply mb-3 overflow-scroll block;
+}
