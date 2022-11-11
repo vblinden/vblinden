@@ -5,6 +5,8 @@ export default function Layout({ children }: { children: React.ReactNode }) {
     <html lang="en">
       <head>
         <title>vblinden.dev</title>
+        <meta charSet="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
         <meta
           name="description"
           content="Hello friends, my name is Vincent van der Linden. I am currently working as a software engineer at team.blue. On this website you can find some thoughts and
