@@ -10,7 +10,7 @@ export default function Home() {
             href="https://github.com/vblinden"
             target="_blank"
             rel="noreferrer"
-            className="text-blue-600 hover:text-blue-800"
+            className="text-blue-600 hover:text-blue-800 dark:text-slate-500 dark:underline dark:hover:text-slate-100"
           >
             @vblinden
           </a>
@@ -30,41 +30,56 @@ export default function Home() {
           <li>
             <Link
               href="/posts/implement-rigorously-the-five-step-process"
-              className="text-blue-600 hover:text-blue-800"
+              className="text-blue-600 hover:text-blue-800 dark:text-slate-500 dark:underline dark:hover:text-slate-100"
             >
               Implement Rigorously: The Five Step Process
             </Link>
           </li>
           <li>
-            <Link href="/posts/how-to-install-amqp-on-macos" className="text-blue-600 hover:text-blue-800">
+            <Link
+              href="/posts/how-to-install-amqp-on-macos"
+              className="text-blue-600 hover:text-blue-800 dark:text-slate-500 dark:underline dark:hover:text-slate-100"
+            >
               How to install AMQP on macOS
             </Link>
           </li>
           <li>
-            <Link href="/posts/what-did-you-undesign" className="text-blue-600 hover:text-blue-800">
+            <Link
+              href="/posts/what-did-you-undesign"
+              className="text-blue-600 hover:text-blue-800 dark:text-slate-500 dark:underline dark:hover:text-slate-100"
+            >
               What did you undesign?
             </Link>
           </li>
           <li>
             <a
               href="/posts/deploying-an-application-using-dokku-with-https-and-redirects"
-              className="text-blue-600 hover:text-blue-800"
+              className="text-blue-600 hover:text-blue-800 dark:text-slate-500 dark:underline dark:hover:text-slate-100"
             >
               Deploying an application using Dokku (with HTTPS and redirects)
             </a>
           </li>
           <li>
-            <Link href="/posts/setup-lets-encrypt-with-nginx" className="text-blue-600 hover:text-blue-800">
+            <Link
+              href="/posts/setup-lets-encrypt-with-nginx"
+              className="text-blue-600 hover:text-blue-800 dark:text-slate-500 dark:underline dark:hover:text-slate-100"
+            >
               Setup Let's Encrypt with Nginx
             </Link>
           </li>
           <li>
-            <Link href="/posts/retrieve-submodules-with-git" className="text-blue-600 hover:text-blue-800">
+            <Link
+              href="/posts/retrieve-submodules-with-git"
+              className="text-blue-600 hover:text-blue-800 dark:text-slate-500 dark:underline dark:hover:text-slate-100"
+            >
               Retrieve submodules with Git
             </Link>
           </li>
           <li>
-            <Link href="/posts/never-forget-backups" className="text-blue-600 hover:text-blue-800">
+            <Link
+              href="/posts/never-forget-backups"
+              className="text-blue-600 hover:text-blue-800 dark:text-slate-500 dark:underline dark:hover:text-slate-100"
+            >
               Never. Forget. Backups.
             </Link>
           </li>
@@ -79,7 +94,7 @@ export default function Home() {
               href="https://checkeroni.com"
               target="_blank"
               rel="noreferrer"
-              className="text-blue-600 hover:text-blue-800"
+              className="text-blue-600 hover:text-blue-800 dark:text-slate-500 dark:underline dark:hover:text-slate-100"
             >
               checkeroni.com
             </a>
@@ -95,7 +110,7 @@ export default function Home() {
               href="https://bin.vblinden.dev"
               target="_blank"
               rel="noreferrer"
-              className="text-blue-600 hover:text-blue-800"
+              className="text-blue-600 hover:text-blue-800 dark:text-slate-500 dark:underline dark:hover:text-slate-100"
             >
               bin.vblinden.dev
             </a>
@@ -110,7 +125,7 @@ export default function Home() {
               href="https://drinkmorewater.app"
               target="_blank"
               rel="noreferrer"
-              className="text-blue-600 hover:text-blue-800"
+              className="text-blue-600 hover:text-blue-800 dark:text-slate-500 dark:underline dark:hover:text-slate-100"
             >
               drinkmorewater.app
             </a>
@@ -125,7 +140,7 @@ export default function Home() {
               href="https://nederboard.nl"
               target="_blank"
               rel="noreferrer"
-              className="text-blue-600 hover:text-blue-800"
+              className="text-blue-600 hover:text-blue-800 dark:text-slate-500 dark:underline dark:hover:text-slate-100"
             >
               nederboard.nl
             </a>
@@ -137,7 +152,7 @@ export default function Home() {
               href="https://nederboard.nl/board/helemaalknettah"
               target="_blank"
               rel="noreferrer"
-              className="text-blue-600 hover:text-blue-800"
+              className="text-blue-600 hover:text-blue-800 dark:text-slate-500 dark:underline dark:hover:text-slate-100"
             >
               Helemaal knettah
             </a>
@@ -146,7 +161,7 @@ export default function Home() {
               href="https://nederboard.nl/board/rustahg"
               target="_blank"
               rel="noreferrer"
-              className="text-blue-600 hover:text-blue-800"
+              className="text-blue-600 hover:text-blue-800 dark:text-slate-500 dark:underline dark:hover:text-slate-100"
             >
               Rustahg
             </a>
@@ -155,7 +170,7 @@ export default function Home() {
               href="https://nederboard.nl/board/mandje"
               target="_blank"
               rel="noreferrer"
-              className="text-blue-600 hover:text-blue-800"
+              className="text-blue-600 hover:text-blue-800 dark:text-slate-500 dark:underline dark:hover:text-slate-100"
             >
               Mand
             </a>{' '}
@@ -167,7 +182,7 @@ export default function Home() {
               href="https://iloveitshipit.com"
               target="_blank"
               rel="noreferrer"
-              className="text-blue-600 hover:text-blue-800"
+              className="text-blue-600 hover:text-blue-800 dark:text-slate-500 dark:underline dark:hover:text-slate-100"
             >
               iloveitshipit.com
             </a>
@@ -178,7 +193,7 @@ export default function Home() {
               href="https://www.hanselman.com/"
               target="_blank"
               rel="noreferrer"
-              className="text-blue-600 hover:text-blue-800"
+              className="text-blue-600 hover:text-blue-800 dark:text-slate-500 dark:underline dark:hover:text-slate-100"
             >
               Scott Hanselman
             </a>{' '}

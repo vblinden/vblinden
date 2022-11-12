@@ -17,23 +17,23 @@
 }
 
 .content h1 {
-    @apply text-3xl font-bold mb-1 mt-6;
+    @apply text-3xl font-bold mb-1 mt-6 dark:text-white;
 }
 
 .content h2 {
-    @apply text-2xl font-bold mb-1 mt-6 font-sans;
+    @apply text-2xl font-bold mb-1 mt-6 font-sans dark:text-white;
 }
 
 .content h3 {
-    @apply text-xl font-bold mb-1 mt-6;
+    @apply text-xl font-bold mb-1 mt-6 dark:text-white;
 }
 
 .content h4 {
-    @apply font-bold mb-1;
+    @apply font-bold mb-1 dark:text-white;
 }
 
 .content a {
-    @apply transition-all text-blue-600 hover:text-blue-800;
+    @apply transition-all text-blue-600 hover:text-blue-800 dark:text-slate-500 dark:underline dark:hover:text-slate-100;
 }
 
 .content p {
