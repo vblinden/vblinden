@@ -5,7 +5,7 @@ import Syntax from 'components/Syntax';
 export default function Page() {
   return (
     <>
-      <Header title={'Never. Forget. Backups.'} date={'August 26, 2019'} />
+      <Header title={'Retrieve submodules with git'} date={'August 29, 2019'} />
 
       <Content>
         <p>
