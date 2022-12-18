@@ -14,7 +14,7 @@ export default function Layout({ children }: { children: React.ReactNode }) {
         />
         <link rel="shortcut icon" href="data:image/x-icon;," type="image/x-icon" />
       </head>
-      <body className="dark:bg-gray-800 dark:text-slate-400 bg-gray-50 font-serif antialiased">
+      <body className="dark:bg-zinc-900 dark:text-zinc-400 bg-gray-50 antialiased">
         <div className="container mx-auto">
           <div className="mx-3">
             <div className="my-8">

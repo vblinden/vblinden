@@ -4,13 +4,13 @@ export default function Home() {
   return (
     <>
       <div className="my-8">
-        <p className="mb-3">
+        <p className="mb-3 text-justify">
           Hello friends, my name is Vincent van der Linden and you can find me online as{' '}
           <a
             href="https://github.com/vblinden"
             target="_blank"
             rel="noreferrer"
-            className="text-blue-600 hover:text-blue-800 dark:text-slate-500 dark:underline dark:hover:text-slate-100"
+            className="transition-all text-blue-600 hover:text-blue-800 dark:text-zinc-200 dark:underline dark:hover:text-white"
           >
             @vblinden
           </a>
@@ -30,7 +30,7 @@ export default function Home() {
           <li>
             <Link
               href="/posts/implement-rigorously-the-five-step-process"
-              className="text-blue-600 hover:text-blue-800 dark:text-slate-500 dark:underline dark:hover:text-slate-100"
+              className="transition-all text-blue-600 hover:text-blue-800 dark:text-zinc-200 dark:underline dark:hover:text-white"
             >
               Implement Rigorously: The Five Step Process
             </Link>
@@ -38,7 +38,7 @@ export default function Home() {
           <li>
             <Link
               href="/posts/how-to-install-amqp-on-macos"
-              className="text-blue-600 hover:text-blue-800 dark:text-slate-500 dark:underline dark:hover:text-slate-100"
+              className="transition-all text-blue-600 hover:text-blue-800 dark:text-zinc-200 dark:underline dark:hover:text-white"
             >
               How to install AMQP on macOS
             </Link>
@@ -46,7 +46,7 @@ export default function Home() {
           <li>
             <Link
               href="/posts/what-did-you-undesign"
-              className="text-blue-600 hover:text-blue-800 dark:text-slate-500 dark:underline dark:hover:text-slate-100"
+              className="transition-all text-blue-600 hover:text-blue-800 dark:text-zinc-200 dark:underline dark:hover:text-white"
             >
               What did you undesign?
             </Link>
@@ -54,7 +54,7 @@ export default function Home() {
           <li>
             <a
               href="/posts/deploying-an-application-using-dokku-with-https-and-redirects"
-              className="text-blue-600 hover:text-blue-800 dark:text-slate-500 dark:underline dark:hover:text-slate-100"
+              className="transition-all text-blue-600 hover:text-blue-800 dark:text-zinc-200 dark:underline dark:hover:text-white"
             >
               Deploying an application using Dokku (with HTTPS and redirects)
             </a>
@@ -62,7 +62,7 @@ export default function Home() {
           <li>
             <Link
               href="/posts/setup-lets-encrypt-with-nginx"
-              className="text-blue-600 hover:text-blue-800 dark:text-slate-500 dark:underline dark:hover:text-slate-100"
+              className="transition-all text-blue-600 hover:text-blue-800 dark:text-zinc-200 dark:underline dark:hover:text-white"
             >
               Setup Let's Encrypt with Nginx
             </Link>
@@ -70,7 +70,7 @@ export default function Home() {
           <li>
             <Link
               href="/posts/retrieve-submodules-with-git"
-              className="text-blue-600 hover:text-blue-800 dark:text-slate-500 dark:underline dark:hover:text-slate-100"
+              className="transition-all text-blue-600 hover:text-blue-800 dark:text-zinc-200 dark:underline dark:hover:text-white"
             >
               Retrieve submodules with Git
             </Link>
@@ -78,7 +78,7 @@ export default function Home() {
           <li>
             <Link
               href="/posts/never-forget-backups"
-              className="text-blue-600 hover:text-blue-800 dark:text-slate-500 dark:underline dark:hover:text-slate-100"
+              className="transition-all text-blue-600 hover:text-blue-800 dark:text-zinc-200 dark:underline dark:hover:text-white"
             >
               Never. Forget. Backups.
             </Link>
@@ -94,7 +94,7 @@ export default function Home() {
               href="https://checkeroni.com"
               target="_blank"
               rel="noreferrer"
-              className="text-blue-600 hover:text-blue-800 dark:text-slate-500 dark:underline dark:hover:text-slate-100"
+              className="transition-all text-blue-600 hover:text-blue-800 dark:text-zinc-200 dark:underline dark:hover:text-white"
             >
               checkeroni.com
             </a>
@@ -110,7 +110,7 @@ export default function Home() {
               href="https://bin.vblinden.dev"
               target="_blank"
               rel="noreferrer"
-              className="text-blue-600 hover:text-blue-800 dark:text-slate-500 dark:underline dark:hover:text-slate-100"
+              className="transition-all text-blue-600 hover:text-blue-800 dark:text-zinc-200 dark:underline dark:hover:text-white"
             >
               bin.vblinden.dev
             </a>
@@ -125,7 +125,7 @@ export default function Home() {
               href="https://drinkmorewater.app"
               target="_blank"
               rel="noreferrer"
-              className="text-blue-600 hover:text-blue-800 dark:text-slate-500 dark:underline dark:hover:text-slate-100"
+              className="transition-all text-blue-600 hover:text-blue-800 dark:text-zinc-200 dark:underline dark:hover:text-white"
             >
               drinkmorewater.app
             </a>
@@ -140,7 +140,7 @@ export default function Home() {
               href="https://nederboard.nl"
               target="_blank"
               rel="noreferrer"
-              className="text-blue-600 hover:text-blue-800 dark:text-slate-500 dark:underline dark:hover:text-slate-100"
+              className="transition-all text-blue-600 hover:text-blue-800 dark:text-zinc-200 dark:underline dark:hover:text-white"
             >
               nederboard.nl
             </a>
@@ -152,7 +152,7 @@ export default function Home() {
               href="https://nederboard.nl/board/helemaalknettah"
               target="_blank"
               rel="noreferrer"
-              className="text-blue-600 hover:text-blue-800 dark:text-slate-500 dark:underline dark:hover:text-slate-100"
+              className="transition-all text-blue-600 hover:text-blue-800 dark:text-zinc-200 dark:underline dark:hover:text-white"
             >
               Helemaal knettah
             </a>
@@ -161,7 +161,7 @@ export default function Home() {
               href="https://nederboard.nl/board/rustahg"
               target="_blank"
               rel="noreferrer"
-              className="text-blue-600 hover:text-blue-800 dark:text-slate-500 dark:underline dark:hover:text-slate-100"
+              className="transition-all text-blue-600 hover:text-blue-800 dark:text-zinc-200 dark:underline dark:hover:text-white"
             >
               Rustahg
             </a>
@@ -170,7 +170,7 @@ export default function Home() {
               href="https://nederboard.nl/board/mandje"
               target="_blank"
               rel="noreferrer"
-              className="text-blue-600 hover:text-blue-800 dark:text-slate-500 dark:underline dark:hover:text-slate-100"
+              className="transition-all text-blue-600 hover:text-blue-800 dark:text-zinc-200 dark:underline dark:hover:text-white"
             >
               Mand
             </a>{' '}
@@ -182,7 +182,7 @@ export default function Home() {
               href="https://iloveitshipit.com"
               target="_blank"
               rel="noreferrer"
-              className="text-blue-600 hover:text-blue-800 dark:text-slate-500 dark:underline dark:hover:text-slate-100"
+              className="transition-all text-blue-600 hover:text-blue-800 dark:text-zinc-200 dark:underline dark:hover:text-white"
             >
               iloveitshipit.com
             </a>
@@ -193,7 +193,7 @@ export default function Home() {
               href="https://www.hanselman.com/"
               target="_blank"
               rel="noreferrer"
-              className="text-blue-600 hover:text-blue-800 dark:text-slate-500 dark:underline dark:hover:text-slate-100"
+              className="transition-all text-blue-600 hover:text-blue-800 dark:text-zinc-200 dark:underline dark:hover:text-white"
             >
               Scott Hanselman
             </a>{' '}

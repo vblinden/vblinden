@@ -33,7 +33,7 @@
 }
 
 .content a {
-    @apply transition-all text-blue-600 hover:text-blue-800 dark:text-slate-500 dark:underline dark:hover:text-slate-100;
+    @apply transition-all text-blue-600 hover:text-blue-800 dark:text-zinc-200 dark:underline dark:hover:text-white;
 }
 
 .content p {
